@@ -1,1 +1,18 @@
+opencv_python==4.11.0.86
+numpy
+nvidia_ml_py
+pandas
+Pillow
+pynvml
+pytorch_msssim
+scipy
+skimage
+tensorboardX
+timm
+torch
+torchinfo
+torchstat
+torchvision
+tqdm
+
 
