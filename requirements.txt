@@ -1,18 +1,20 @@
+matplotlib==3.10.5
+numpy==2.3.2
+nvidia_ml_py==12.570.86
 opencv_python==4.11.0.86
-numpy
-nvidia_ml_py
-pandas
-Pillow
-pynvml
-pytorch_msssim
-scipy
-skimage
-tensorboardX
-timm
-torch
-torchinfo
-torchstat
-torchvision
-tqdm
+pandas==2.3.2
+Pillow==11.3.0
+pynvml==12.0.0
+pytorch_msssim==1.0.0
+scipy==1.16.1
+skimage==0.0
+tensorboardX==2.6.2.2
+tensorboardX==2.6.4
+timm==1.0.19
+torch==2.8.0
+torchinfo==1.8.0
+torchstat==0.0.7
+torchvision==0.23.0
+tqdm==4.67.1
 
 
