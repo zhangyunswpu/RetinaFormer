@@ -7,9 +7,7 @@
 
 
 
-## News
 
-- **Aug 27, 2025:** Manuscript submitted to IEEE TIP.
 
 ## Overall Architecture
 ![RetinaFormer](demo.jpg)
@@ -112,7 +110,8 @@ Run the following script to test the trained model:
 ```sh
 python test.py --model (model name) --dataset (dataset name) --exp (exp name)
 ```
-
+## Prepare pretrained models
+Download Links:[] password:
 
 ## Contact
 If you have any questions or suggestions about our paper and repo, please feel free to concat us .
