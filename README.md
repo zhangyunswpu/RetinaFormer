@@ -111,8 +111,9 @@ Run the following script to test the trained model:
 python test.py --model (model name) --dataset (dataset name) --exp (exp name)
 ```
 ## Prepare pretrained models
-Download Links:[[Baidu Netdisk](https://pan.baidu.com/s/1kCzwik2vaKMftp-YVvKJOQ  
-)] password:uc2c
+Download Links:[[Baidu Netdisk](https://pan.baidu.com/s/1YyZKBV0jWHmj-CzfF6MxvQ  
+
+)] password:7xv5 
 
 ## Contact
 If you have any questions or suggestions about our paper and repo, please feel free to concat us .
