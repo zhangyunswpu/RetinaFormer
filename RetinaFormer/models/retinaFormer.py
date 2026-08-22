@@ -563,12 +563,12 @@ class RetinaFormer(nn.Module):
         return Iout
 
 
-def retinaformer_l():
-    return RetinaFormer(
-        embed_dims=[32,64,128,256],
-        mlp_ratios=[0., 4., 4.,4.0],
-        depths=[0,4, 8, 12],
-        num_heads=[0,2, 4, 8])
+#def retinaformer_l():
+    #return RetinaFormer(
+       # embed_dims=[32,64,128,256],
+       # mlp_ratios=[0., 4., 4.,4.0],
+       # depths=[0,4, 8, 12],
+       # num_heads=[0,2, 4, 8])
 
 def retinaformer_m():
     return RetinaFormer(
@@ -583,5 +583,10 @@ def retinaformer_s():
         mlp_ratios=[0., 4., 4.,4.],
         depths=[0,2, 4, 8],
         num_heads=[0,2, 4, 8])
-
-
+    
+def retinaformer_Mini():
+    return RetinaFormer(
+        embed_dims=[24,32,64,96],
+        mlp_ratios=[0., 4., 4.,4.],
+        depths=[0,2, 4, 8],
+        num_heads=[0,2, 4, 8])
