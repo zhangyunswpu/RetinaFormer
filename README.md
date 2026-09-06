@@ -98,7 +98,7 @@ You can modify the training settings for each experiment in the `configs` folder
 Then run the following script to train the model:
 
 ```sh
-python train.py --model (model name) --dataset (dataset name) --exp (exp name)
+python train.py --model (model name) --dataset (dataset name) --exp (exp name) --data_dir （path to dataset）
 ```
 
 
@@ -107,7 +107,7 @@ python train.py --model (model name) --dataset (dataset name) --exp (exp name)
 Run the following script to test the trained model:
 
 ```sh
-python test.py --model (model name) --dataset (dataset name) --exp (exp name)
+python test.py --model (model name) --dataset (dataset name) --exp (exp name)  --data_dir （path to dataset）--save_dir （path to models saving）
 ```
 ## Prepare pretrained models
 Download Links:[[Baidu Netdisk](https://pan.baidu.com/s/1YyZKBV0jWHmj-CzfF6MxvQ  
