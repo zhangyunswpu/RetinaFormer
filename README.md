@@ -26,7 +26,6 @@ conda activate pt280
 
 2. Install dependencies
 ```
-conda install pytorch=2.8.0 torchvision torchaudio cudatoolkit=12.8 -c pytorch
 pip install -r requirements.txt
 ```
 
